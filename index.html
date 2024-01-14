@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./global.css">
+</head>
+
+<body class="content">
+    <div class="main">
+        <h1 style='text-align: center'>Tags em HMTL</h1>
+        <hr>
+
+        <h2 id="indice">Índice</h2>
+
+        <ul style="list-style:decimal">
+            <li><a href="#1">O que são Tags</a></li>
+            <li><a href="#2">Tags de &lt;h1&gt; até &lt;h6&gt;</a></li>
+            <li><a href="#3">A tag &lt;p&gt;</li>
+            <li><a href="#4">Utilizando &lt;mark&gt;</a></li>
+            <li><a href="#5">Tag &lt;small&gt;</a></li>
+            <li><a href="#6">Tags &lt;i&gt;, &lt;u&gt; e &lt;strong&gt;</a></li>
+            <li><a href="#7">Tags &lt;ol&gt, &lt;ul&gt; e &lt;li&gt;</a></li>
+            <li><a href="#8">A tag &lt;a&gt;</a></li>
+            <li><a href="#9">Sobre a tag &lt;hr&gt;</a></li>
+            <li><a href="#10">Tags &lt;sub&gt; e &lt;sup&gt;</a></li>
+            <li><a href="#11">Tag &lt;blockquote&gt;</a></li>
+            <li><a href="#12">Links de referências</a></li>
+        </ul>
+
+        <h2 id="1">1. O que são Tags</h2><small><a href="#indice">voltar</a></small>
+        <p>
+            <strong>Em HTML (<i>Hypertext Markup Language</i>), as tags são elementos fundamentais</strong> usados para
+            estruturar e formatar
+            o conteúdo em uma página web. <strong>As tags são compostas por códigos entre colchetes angulares (&lt; e &gt;)
+                e geralmente
+                existem em pares, com uma tag de abertura e uma tag de fechamento.</strong>
+
+            A estrutura básica de uma tag HTML é a seguinte:
+            <br><strong>&lt;nome-da-tag&gt;conteúdo&lt;/nome-da-tag&gt;</strong>
+
+        </p>
+
+        <h2 id="2">2. Tags de &lt;h1&gt; até &lt;h6&gt;</h2><small><a href="#indice">voltar</a></small>
+
+        <p>
+            As tags de &lt;h1&gt; a &lt;h6&gt; em HTML são <strong>usadas para definir os cabeçalhos ou títulos em uma
+                página
+                web.</strong> A letra "h" representa "header" (cabeçalho) e o número indica o nível do cabeçalho, onde
+            &lt;h1&gt; é o mais importante e
+            &lt;h6&gt; é o menos importante. Aqui estão exemplos de como essas tags são usadas:
+
+
+        <h1>Nível 1 h1 - Título Principal</h1>
+        <p>Este é um parágrafo de texto abaixo do título principal.</p>
+
+        <h2>Nível 2 h2- Subtítulo</h2>
+        <p>Outro parágrafo de texto abaixo do subtítulo.</p>
+
+        <h3>Nível 3 h3 - Subtítulo Menor</h3>
+        <p>Mais um parágrafo de texto abaixo do subtítulo menor.</p>
+
+        <h4>Nível 4 h4 - Subtítulo Menor ainda</h4>
+        <p>Outro parágrafo de texto abaixo do subtítulo menor ainda.</p>
+
+        <h5>Nível 5 h5 - Subtítulo Mínimo</h5>
+        <p>Parágrafo de texto abaixo do subtítulo mínimo.</p>
+
+        <h6>Nível 6 h6 - Subtítulo Mínimo</h6>
+        <p>Parágrafo de texto abaixo do subtítulo mínimo.</p>
+
+        </p>
+
+        <h2 id="3">3. A tag &lt;p&gt;</h2><small><a href="#indice">voltar</a></small>
+        <p>
+            A tag &lt;p&gt; em HTML é <strong>usada para definir parágrafos de texto.</strong> Ela é uma das tags mais
+            simples e fundamentais para
+            estruturar o conteúdo textual em uma página web. Aqui está um exemplo básico de como a tag &lt;p&gt; é
+            utilizada:<br>
+        <p><i>Este é um parágrafo de texto em HTML. Os parágrafos são frequentemente usados para organizar o conteúdo de uma
+                página de maneira clara e legível.</i></p>
+
+        <p><i>Outro parágrafo pode ser adicionado abaixo do primeiro. Isso ajuda a dividir o conteúdo em seções
+                distintas.</i></p>
+
+        <p>
+            Neste exemplo, os dois parágrafos estão contidos nas tags &lt;p&gt;, indicando ao navegador que cada bloco de
+            texto deve ser tratado como um parágrafo separado. Isso não
+            apenas <strong>ajuda na apresentação visual da página, mas também pode ser útil para acessibilidade e indexação de
+            mecanismos
+            de pesquisa.</strong>
+        </p>
+
+        </p>
+
+        <h2 id="4">4. Utilizando &lt;mark&gt;</h2><small><a href="#indice">voltar</a></small>
+
+        <p>
+            A tag &lt;mark&gt; em HTML é <strong>usada para destacar parte do texto dentro de um parágrafo ou de um bloco de texto.
+            Geralmente, o texto marcado é destacado com uma cor de fundo amarela padrão nos navegadores, mas isso pode
+            variar dependendo do estilo padrão do navegador ou das regras de estilo aplicadas ao documento.</strong><br><br>
+
+            Aqui está um exemplo simples de como a tag &lt;mark&gt; pode ser usada:<br>
+
+        <p>Este é um exemplo de texto com <mark>parte do texto marcado</mark> usando a tag &lt;mark&gt; em HTML.</p>
+
+        Neste exemplo, a frase <strong>"parte do texto marcado"</strong> será destacada visualmente quando a página for renderizada no
+        navegador.
+
+        É importante mencionar que <strong>o uso da tag &lt;mark&gt; deve ser feito com moderação e com propósito,</strong> já que seu
+        objetivo
+        principal é <strong>destacar informações relevantes para o usuário.</strong> O uso excessivo ou inadequado pode comprometer a
+        usabilidade e a estética da página.
+
+        </p>
+
+        <h2 id="5">5. Tag &lt;small&gt;</h2><small><a href="#indice">voltar</a></small>
+
+        <p>
+            A tag &lt;small&gt; em HTML é <strong>usada para definir texto que deve ser exibido em um tamanho de fonte menor do que
+            o
+            texto circundante.</strong> Ela é <strong>útil para indicar que determinado texto é de menor importância, como legendas,
+            notas de rodapé ou qualquer outra informação secundária.</strong>
+
+            Aqui está um exemplo básico de como a tag &lt;small&gt; pode ser utilizada:<br><br>
+
+        <p>Este é um texto normal, e aqui está um texto em <small>tamanho menor</small> usando a tag &lt;small&gt;.</p>
+
+        Neste exemplo, a frase "tamanho menor" será renderizada em um tamanho de fonte menor do que o texto circundante,
+        graças ao uso da tag &lt;small&gt;.
+
+        <strong>É importante mencionar que a aparência exata do texto marcado com &lt;small&gt; pode variar dependendo dos estilos
+        padrão do navegador ou das regras de estilo aplicadas ao documento. Os desenvolvedores também podem usar
+        folhas de estilo CSS para personalizar ainda mais o design.</strong>
+
+        </p>
+
+        <h2 id="6">6. Tags &lt;i&gt;, &lt;u&gt; e &lt;strong&gt;</h2><small><a href="#indice">voltar</a></small>
+
+        <p>
+            <strong>As tags &lt;i&gt;, &lt;u&gt;, e &lt;strong&gt; em HTML são usadas para aplicar estilos ou ênfase a diferentes
+            partes do texto em
+            uma página web.</strong> Aqui estão as descrições de cada uma:
+
+            &lt;i&gt; - Itálico:
+
+            A tag &lt;i&gt; é <strong>usada para envolver texto que deve ser exibido em itálico.</strong> No entanto, é importante
+            notar que a tendência atual é usar a tag &lt;em&gt; para enfatizar o texto semanticamente,
+            reservando &lt;i&gt; para estilos puramente visuais. Exemplo:<br>
+
+        <p>Este é um texto em <i>itálico</i>.</p>
+
+        &lt;u&gt; - Sublinhado:
+
+        A tag &lt;u&gt; é <strong>usada para envolver texto que deve ser sublinhado.</strong> No entanto, é comum usar a tag &lt;u&gt; em
+        HTML para indicar ênfase semântica, reservando o sublinhado para fins de estilo apenas.
+        Exemplo:<br>
+
+        <p>Este é um texto <u>sublinhado</u>.</p>
+
+        &lt;strong&gt; - Texto Forte:
+
+        A tag &lt;strong&gt; é usada para envolver texto que é de grande importância ou enfatizado. Visualmente, o texto
+        dentro de &lt;strong&gt; é frequentemente exibido em negrito, mas semanticamente, ela indica forte importância.
+        Exemplo:<br>
+
+        <p>Este é um texto <strong>fortemente enfatizado</strong>.</p>
+
+        <strong>É importante notar que, embora essas tags possam ser usadas para aplicar estilos visuais, a ênfase semântica é
+        geralmente preferida.</strong> Para enfatizar semanticamente um trecho de texto, você pode usar as tags &lt;em&gt; para
+        itálico e &lt;strong&gt; para ênfase forte. Além disso, a utilização de CSS para estilizar o texto é comum e
+        oferece mais flexibilidade.
+
+        </p>
+
+        <h2 id="7">7. Tags &lt;ol&gt, &lt;ul&gt; e &lt;li&gt;</h2><small><a href="#indice">voltar</a></small>
+
+        <p>
+            <strong>As tags &lt;ol&gt;, &lt;ul&gt;, e &lt;li&gt; são usadas para criar listas em HTML.</strong> Aqui está uma breve
+            explicação sobre cada uma delas:<br><br>
+
+            <strong>&lt;ol&gt; - Lista Ordenada (Ordered List):</strong>
+
+            A tag &lt;ol&gt; é <strong>usada para criar uma lista ordenada,</strong> onde cada item é numerado. Os itens da lista são
+            definidos com a tag&lt;li&gt; (item de lista).
+            Exemplo:<br>
+
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+
+        <strong>&lt;ul&gt; - Lista Não Ordenada (Unordered List):</strong>
+
+        A tag &lt;ul&gt; é <strong>usada para criar uma lista não ordenada, onde cada item é marcado com um ponto, quadrado,
+        círculo, ou outro marcador. Os itens da lista também são definidos com a tag &lt;li&gt;.</strong>
+        Exemplo:<br>
+
+        <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>Item C</li>
+        </ul>
+
+        <strong>&lt;li&gt; - Item de Lista:</strong>
+
+        A tag &lt;li&gt; é <strong>usada para definir cada item em uma lista, seja ela ordenada ou não ordenada.</strong> Os itens são
+        colocados dentro das tags &lt;ol&gt; ou &lt;ul&gt;.<br>
+        Exemplo de lista ordenada:<br>
+
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+
+        Exemplo de lista não ordenada:<br>
+
+        <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>Item C</li>
+        </ul>
+
+        Lembre-se de que essas tags podem ser aninhadas para criar listas mais complexas.
+        </p>
+
+        <h2 id="8">8. A tag &lt;a&gt;</h2><small><a href="#indice">voltar</a></small>
+
+        <p>
+            <strong>A tag &lt;a&gt; em HTML é usada para criar links ou âncoras em uma página da web.</strong> Ela permite que os usuários
+            cliquem no texto ou em um elemento e sejam redirecionados para outra página, recurso ou posição na mesma página.
+
+            <br>Aqui está um exemplo básico de como a tag &lt;a&gt; é usada para criar um link:<br><br>
+
+            <a href="https://www.google.com" target="_blank">Clique aqui para visitar o site do google.com</a><br><br>
+
+            Neste exemplo, a tag &lt;a&gt; envolve o texto "Clique aqui para visitar o Exemplo.com", e o atributo href
+            especifica o URL para o qual o link deve apontar. <strong>Ao clicar nesse link, o navegador geralmente redirecionará o
+            usuário para o URL especificado.</strong>
+
+            É possível usar a tag &lt;a&gt; para criar links para outros recursos, como imagens, documentos, endereços de
+            e-mail, ou até mesmo para navegar para seções específicas de uma página usando âncoras internas. Veja alguns
+            exemplos:<br><br>
+
+            Exemplo do código html para um link de arquivo local:<br><br>
+
+            &lt;a href="documento.pdf"&gt;Baixar o documento PDF&lt;/a&gt;<br><br>
+
+            Exemplo do código html para um link de arquivo local:<br><br>
+
+            &lt;a href="mailto:contato@exemplo.com"&gt;Enviar e-mail para Contato&lt;/a&gt;<br><br>
+
+            Exemplo do código html para âncora:<br><br>
+
+            &lt;a href="#secao1"&gt;Ir para a Seção 1&lt;/a&gt;<br><br>
+
+            &lt;h2 id="secao1"&gt;Seção 1&lt;/h2&gt;<br><br>
+
+            Esses são apenas alguns exemplos básicos. A tag &lt;a&gt; é fundamental para a navegação e interatividade em
+            páginas da web.
+
+        </p>
+
+        <h2 id="9">9. Sobre a tag &lt;hr&gt;</h2><small><a href="#indice">voltar</a></small>
+
+        <p>
+            <strong>A tag &lt;hr&gt; em HTML é usada para criar uma linha horizontal, que é frequentemente usada para separar
+            conteúdo em uma página da web. A tag &lt;hr&gt; é um elemento vazio, o que significa que não possui uma tag de
+            fechamento correspondente.</strong>
+
+            Aqui está um exemplo simples de como a tag &lt;hr&gt; pode ser usada:<br><br>
+
+        <p>Este é um parágrafo de texto.</p>
+        <hr>
+        <p>Este é outro parágrafo de texto, separado pela linha horizontal.</p>
+
+        Neste exemplo, a linha horizontal é usada para criar uma divisão visual entre os dois parágrafos.
+
+        Além disso, você pode adicionar atributos à tag &lt;hr&gt; para personalizar a aparência da linha, como width
+        (largura), color (cor) e align (alinhamento). Aqui está um exemplo:<br><br>
+
+        &lt;hr width="50%" color="blue" align="left"&gt;
+        <hr width="50%" color="blue" align="left"><br><br>
+
+        Este exemplo cria uma linha horizontal com 50% da largura da página, na cor azul, alinhada à esquerda.
+
+        <strong>A tag &lt;hr&gt; é uma maneira simples e eficaz de adicionar divisões visuais em uma página HTML.</strong> No entanto, é
+        importante considerar as melhores práticas de design e usabilidade ao utilizá-la. <strong>Em muitos casos, estilos CSS são
+        preferidos para criar divisões mais flexíveis e estilizadas.</strong>
+        </p>
+
+        <h2 id="10">10. Tags &lt;sub&gt; e &lt;sup&gt;</h2><small><a href="#indice">voltar</a></small>
+
+        <p>
+            As tags &lt;sub&gt; e &lt;sup&gt; em HTML são utilizadas para definir texto como subscrito e sobrescrito,
+            respectivamente. Aqui está uma explicação de cada uma delas:<br><br>
+
+            <strong>&lt;sub&gt; - Subscrito:</strong>
+
+            <strong>A tag &lt;sub&gt; é usada para representar texto que deve ser exibido como subscrito. Normalmente, ela é usada
+            para fórmulas químicas, fórmulas matemáticas ou qualquer conteúdo onde o texto inferior é apropriado.</strong>
+            Exemplo:<br><br>
+
+            H&lt;sub&gt;2&lt;/sub&gt;O<br>
+            H<sub>2</sub>O<br><br>
+
+            Isso renderizará "H₂O", onde o "2" está subscrito.<br><br>
+
+            <strong>&lt;sup&gt; - Sobrescrito:</strong>
+
+            <strong>A tag &lt;sup&gt; é usada para representar texto que deve ser exibido como sobrescrito. Geralmente, é utilizado
+            para expoentes em expressões matemáticas ou para notações de ordem.</strong>
+            Exemplo:<br><br>
+
+            x&lt;sup&gt;2&lt;/sup&gt;<br>
+            x<sup>2</sup><br><br>
+
+            Isso renderizará "x²", onde o "2" está sobrescrito.<br><br>
+
+            <strong>Ambas as tags são úteis para melhorar a apresentação de informações técnica e científica em uma página da web.
+            Elas não afetam o significado semântico do texto, apenas sua apresentação visual.</strong> Lembre-se de que a aparência
+            exata pode variar dependendo do navegador e das folhas de estilo CSS aplicadas ao documento.
+
+        </p>
+
+        <h2 id="11">11. Tag &lt;blockquote&gt;</h2><small><a href="#indice">voltar</a></small>
+
+        <p>
+            <strong>A tag &lt;blockquote&gt; em HTML é usada para representar um bloco de texto que é uma citação de outro recurso,
+            como um livro, um artigo ou um site.</strong> A utilização desta tag indica ao navegador que o texto contido é uma
+            citação e geralmente resulta em um recuo ou formatação especial para destacar visualmente a citação.
+
+            Aqui está um exemplo básico de como a tag &lt;blockquote&gt; pode ser usada:<br><br>
+
+            &lt;blockquote&gt;<br>
+            &lt;p&gt;Esta é uma citação de algum texto. Pode ser de um livro, artigo ou qualquer outra fonte.&lt;/p&gt;<br>
+            &lt;footer&gt;Nome do Autor&lt;/footer&gt;<br>
+            &lt;/blockquote&gt;<br><br>
+
+        <blockquote>
+            <p>Esta é uma citação de algum texto. Pode ser de um livro, artigo ou qualquer outra fonte.</p>
+            <footer>Nome do Autor</footer>
+        </blockquote><br>
+
+        Dentro da tag &lt;blockquote&gt;, você pode incluir <strong>parágrafos, cabeçalhos, listas, e outros elementos HTML para
+        estruturar a citação.</strong> Além disso, <strong>é comum usar a tag &lt;footer&gt; dentro de &lt;blockquote&gt; para indicar o
+        autor da citação.</strong>
+
+        Este é apenas um exemplo básico, e a tag &lt;blockquote&gt; pode ser estilizada usando CSS para atender às
+        necessidades de design específicas de uma página. <strong>O uso adequado da tag &lt;blockquote&gt; ajuda na
+            organização e na
+            apresentação de citações em páginas da web.</strong>
+        </p>
+
+        <h2 id="12">12. Links de referências</h2><small><a href="#indice">voltar</a></small>
+
+        <p>
+            <strong>Para aprender mais sobre esse tema acesse esses links abaixo:</strong><br><br>
+
+            <a
+                href="https://developer.mozilla.org/pt-BR/docs/Glossary/Tag" target="_blank">https://developer.mozilla.org/pt-BR/docs/Glossary/Tag</a><br><br>
+            <a
+                href="https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html" target="_blank">https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html</a><br><br>
+            <a href="https://pt.wikipedia.org/wiki/Elemento_HTML" target="_blank">https://pt.wikipedia.org/wiki/Elemento_HTML</a>
+        </p>
+
+    </div>
+</body>
+
+</html>
